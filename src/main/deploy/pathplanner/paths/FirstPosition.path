@@ -1,0 +1,67 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.55625,
+        "y": 5.702000000000001
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.854250000000001,
+        "y": 5.708500000000001
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.56,
+        "y": 5.13
+      },
+      "prevControl": {
+        "x": 6.190250000000001,
+        "y": 5.1267499999999995
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "FirstRED"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "ElevatorL4",
+      "waypointRelativePos": 0.6620347394540987,
+      "endWaypointRelativePos": null,
+      "command": null
+    },
+    {
+      "name": "IntakeL4",
+      "waypointRelativePos": 0.9002481389578105,
+      "endWaypointRelativePos": null,
+      "command": null
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.2,
+    "maxAcceleration": 2.7,
+    "maxAngularVelocity": 360.0,
+    "maxAngularAcceleration": 540.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -120.718
+  },
+  "reversed": false,
+  "folder": "Position",
+  "idealStartingState": {
+    "velocity": 3.5,
+    "rotation": -136.82408983237593
+  },
+  "useDefaultConstraints": false
+}
