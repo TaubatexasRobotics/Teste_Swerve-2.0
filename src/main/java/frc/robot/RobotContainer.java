@@ -34,7 +34,7 @@ public class RobotContainer {
         // Comando padrão swerve operado por joystick
         swerveSubsystem.setDefaultCommand(new SwerveJoystickCmd(
                 swerveSubsystem, () -> Joystick1.getRawAxis(1), () -> -Joystick1.getRawAxis(0),
-                () -> -OIConstants.getGyroAxis(Joystick1), () -> Joystick1.getRawButton(OIConstants.kResetEncodersButtonIdx)));
+                () -> -Joystick1.getRawAxis(4), () -> Joystick1.getRawButton(OIConstants.kResetEncodersButtonIdx)));
 
         // Atribui as funções para cada botão do Controle
         configureButtonBindings();
